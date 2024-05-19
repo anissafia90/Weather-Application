@@ -1,22 +1,20 @@
-// import { useState } from "react";
-
 import "./App.css";
 import NavBar from "./Components/NavBar";
 import { useStateContext } from "./Context";
 import { BackgroundLayout, WeatherCard, MiniCard } from "./Components";
 
 function App() {
-  const { weather, Location, values } = useStateContext();
+  const { weather, location, values } = useStateContext(); // Note: location is used instead of Location
 
-  // console.log(weather);
+  console.log(weather);
 
   return (
-    <div className="w-100 h-100 px-5">
+    <div className="w-100 h-100 text-white px-3">
       <NavBar />
-      <BackgroundLayout></BackgroundLayout>
-      <main className="container-fluid d-flex flex-wrap py-3 px-5 align-items-center justify-content-center">
+      <BackgroundLayout />
+      <main className="container-fluid d-flex flex-wrap py-4 px-5 align-items-center justify-content-center">
         <WeatherCard
-          place={Location}
+          place={location} // Changed to location
           windspeed={weather.wspd}
           humidity={weather.humidity}
           temperature={weather.temp}

@@ -15,6 +15,7 @@ const WeatherCard = ({
   windspeed,
   humidity,
   place,
+
   heatIndex,
   iconString,
   conditions,
