@@ -1,34 +1,35 @@
-#Weather Application
-This is a weather web application built using React JS. It allows users to view the weather forecast for different locations.
+<b>Weather Application</b>  <br>
+This is a weather web application built using React JS. It allows users to view the weather forecast for different locations.  <br>
 
-##Installation
-Clone the repository:
+<b>Installation</b>  <br>
+Clone the repository:  <br>
 
-git clone https://github.com/anissafia90/Weather-Application.git
+git clone https://github.com/anissafia90/Weather-Application.git  <br>
 
-cd Weather-Application
-##Install dependencies:
-npm install
+cd Weather-Application  <br>
+<b>Install dependencies:</b>  <br>
+npm install  <br>
 
-##Start the development server:
+##Start the development server:  <br>
 
-npm run dev
-Open your browser and visit http://localhost:5173 to view the application.
+npm run dev  <br>
+Open your browser and visit http://localhost:5173 to view the application.  <br>
 
-##Features
-View weather forecast for different locations.
+<b>Features</b>  <br>
+View weather forecast for different locations.  <br>
 
-##Technologies Used
-React JS
-Vite
+<b>Technologies Used</b>  <br>
+React JS  <br>
+Bootstrap  <br>
+Vite  <br>
 
-##Contributing
+<b>Contributing</b>  <br>
 
-Fork the repository.
-Create a new branch (git checkout -b feature/my-feature).
-Commit your changes (git commit -am 'Add my feature').
-Push to the branch (git push origin feature/my-feature).
-Create a new Pull Request.
+Fork the repository. <br>
+Create a new branch (git checkout -b feature/my-feature). <br>
+Commit your changes (git commit -am 'Add my feature'). <br>
+Push to the branch (git push origin feature/my-feature). <br>
+Create a new Pull Request. <br>
 
-##License
+<b>License</b> <br>
 This project is licensed under the MIT License - see the LICENSE file for details.
