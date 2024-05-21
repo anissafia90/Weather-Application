@@ -12,7 +12,7 @@ function App() {
     <div className="w-100 h-100 text-white px-3">
       <NavBar />
       <BackgroundLayout />
-      <main className="container-fluid d-flex flex-wrap py-4 px-5 align-items-center justify-content-center">
+      <main className="container-fluid d-flex flex-wrap gap-4 py-4 px-5 align-items-center justify-content-center">
         <WeatherCard
           place={location} // Changed to location
           windspeed={weather.wspd}
