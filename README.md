@@ -7,10 +7,11 @@ Clone the repository:  <br>
 git clone https://github.com/anissafia90/Weather-Application.git  <br>
 
 cd Weather-Application  <br>
-<b>Install dependencies:</b>  <br>
-npm install  <br>
 
-##Start the development server:  <br>
+<b>Install dependencies:</b>  <br>
+npm install  <br> 
+<br>
+<b>Start the development server:</b>    <br>
 
 npm run dev  <br>
 Open your browser and visit http://localhost:5173 to view the application.  <br>
