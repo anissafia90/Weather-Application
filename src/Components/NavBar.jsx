@@ -6,7 +6,8 @@ const NavBar = () => {
   const [input, setInput] = useState("");
   const { setPlace } = useStateContext();
 
-  const submitCity = () => {
+  const submitCity = (e) => {
+    e.preventDefault();
     setPlace(input);
     setInput("");
   };
@@ -16,16 +17,10 @@ const NavBar = () => {
         <Form inline>
           <h1 className="title">Weather App</h1>
         </Form>
-        <Form inline className="mx-5">
+        <Form inline className="mx-5" onSubmit={submitCity}>
           <Row>
             <Col xs="auto">
               <Form.Control
-                onKeyUp={(e) => {
-                  if (e.key === "Enter") {
-                    // sumit the form
-                    submitCity();
-                  }
-                }}
                 type="text"
                 placeholder="Search"
                 className=" mr-sm-2"
