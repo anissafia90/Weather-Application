@@ -11,6 +11,15 @@ export const StateContextProvider = ({ children }) => {
 
   // fetch api
   const fetchWeather = async () => {
+    /*
+    Fetches the current weather for a given city using the weather API.
+
+    Parameters:
+    city (str): The name of the city for which to fetch the weather.
+
+    Returns:
+    dict: A dictionary containing the weather data for the city.
+    */
     const options = {
       method: "GET",
       url: "https://visual-crossing-weather.p.rapidapi.com/forecast",
